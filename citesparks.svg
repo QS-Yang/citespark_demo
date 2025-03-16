@@ -1,0 +1,27 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="15" ry="15" fill="#f0f4f8" stroke="#2c3e50" stroke-width="4"/>
+  
+  <!-- Document/Text (left side) -->
+  <rect x="30" y="40" width="60" height="80" fill="#ffffff" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="40" y1="55" x2="80" y2="55" stroke="#3498db" stroke-width="2"/>
+  <line x1="40" y1="70" x2="80" y2="70" stroke="#3498db" stroke-width="2"/>
+  <line x1="40" y1="85" x2="65" y2="85" stroke="#3498db" stroke-width="2"/>
+  <line x1="40" y1="100" x2="70" y2="100" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- Flow/Node visualization (right side) -->
+  <circle cx="130" cy="50" r="10" fill="#9b59b6" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="150" cy="80" r="10" fill="#9b59b6" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="110" cy="90" r="10" fill="#9b59b6" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="130" y1="50" x2="150" y2="80" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="150" y1="80" x2="110" y2="90" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="110" y1="90" x2="130" y2="50" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- AI Brain/Connection (bottom) -->
+  <path d="M70,140 C90,120 110,160 130,140" stroke="#e74c3c" stroke-width="3" fill="none"/>
+  <circle cx="70" cy="140" r="5" fill="#e74c3c"/>
+  <circle cx="130" cy="140" r="5" fill="#e74c3c"/>
+  
+  <!-- Little sparkle (representing AI insight) -->
+  <path d="M100,120 L105,130 L100,125 L95,130 Z" fill="#f1c40f"/>
+</svg>
